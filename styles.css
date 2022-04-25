@@ -1,0 +1,164 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles navigation header at top of page */
+.navigation {
+    background-color: #1F2937;
+    display: flex;
+    height: 24px;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 48px;
+}
+
+/* Styles second section of page */
+.main {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-content: center;
+    padding:96px 8px 96px 8px;
+    gap: 200px;
+}
+
+.sign-up {
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #1F2937; 
+}
+
+.sign-up .statement {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+
+.only-fans {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    margin-top : 8px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 200px;
+    border-radius: 6px;
+}
+
+
+img {
+
+    width: 600px;
+    height: auto;
+    align-self: flex-end;
+    
+}
+
+/* Styles info section of page */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.info .header, .projects-container .header {
+    font-size: 36px;
+    padding:48px;
+    font-weight: bolder;
+    align-self: center;
+    color:#1F2937;
+}
+    
+.info .card-container {
+    display:flex;
+    justify-content: center;
+    gap:100px;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+}
+
+.card .image {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+}
+
+.card .about {
+    padding: 24px;
+    align-self: center;  
+    color: #1F2937;
+}
+
+/* Styles quote section of page */
+
+.quote-container {
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding:48px;
+    color:#1F2937;
+
+}
+
+.quote {
+    padding-top:48px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.quotee {
+    padding-top: 4px;
+    padding-bottom: 48px;
+    font-weight: Bolder;
+    align-self: flex-end;
+
+}
+
+.footer {
+    padding-top:4px;
+    background-color: #1F2937;
+    text-align: center;
+    font-weight: bold;
+}
+
+.projects-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.projects-container a {
+    padding: 24px;
+    align-self: center;
+}
